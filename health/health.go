@@ -26,9 +26,9 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
-	"google.golang.org/grpc/status"
+	"github.com/duhangsoft/grpc-go/codes"
+	healthpb "github.com/duhangsoft/grpc-go/health/grpc_health_v1"
+	"github.com/duhangsoft/grpc-go/status"
 )
 
 // Server implements `service Health`.

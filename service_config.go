@@ -22,7 +22,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
+	"github.com/duhangsoft/grpc-go/grpclog"
 )
 
 const maxInt = int(^uint(0) >> 1)

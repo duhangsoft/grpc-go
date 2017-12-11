@@ -26,9 +26,9 @@ import (
 	"strings"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/resolver"
+	"github.com/duhangsoft/grpc-go/connectivity"
+	"github.com/duhangsoft/grpc-go/credentials"
+	"github.com/duhangsoft/grpc-go/resolver"
 )
 
 var (

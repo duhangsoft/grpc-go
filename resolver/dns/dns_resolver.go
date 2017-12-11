@@ -33,8 +33,8 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/duhangsoft/grpc-go/grpclog"
+	"github.com/duhangsoft/grpc-go/resolver"
 )
 
 func init() {

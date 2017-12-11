@@ -24,12 +24,12 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/encoding"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/transport"
+	"github.com/duhangsoft/grpc-go/balancer"
+	"github.com/duhangsoft/grpc-go/codes"
+	"github.com/duhangsoft/grpc-go/encoding"
+	"github.com/duhangsoft/grpc-go/peer"
+	"github.com/duhangsoft/grpc-go/stats"
+	"github.com/duhangsoft/grpc-go/transport"
 )
 
 // recvResponse receives and parses an RPC response.

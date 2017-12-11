@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/test/leakcheck"
+	"github.com/duhangsoft/grpc-go/test/leakcheck"
 )
 
 const (

@@ -28,15 +28,15 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
 
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	_ "google.golang.org/grpc/resolver/passthrough"
-	"google.golang.org/grpc/test/leakcheck"
-	"google.golang.org/grpc/testdata"
+	"github.com/duhangsoft/grpc-go/connectivity"
+	"github.com/duhangsoft/grpc-go/credentials"
+	"github.com/duhangsoft/grpc-go/keepalive"
+	"github.com/duhangsoft/grpc-go/naming"
+	"github.com/duhangsoft/grpc-go/resolver"
+	"github.com/duhangsoft/grpc-go/resolver/manual"
+	_ "github.com/duhangsoft/grpc-go/resolver/passthrough"
+	"github.com/duhangsoft/grpc-go/test/leakcheck"
+	"github.com/duhangsoft/grpc-go/testdata"
 )
 
 func assertState(wantState connectivity.State, cc *ClientConn) (connectivity.State, bool) {

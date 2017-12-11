@@ -25,9 +25,9 @@ import (
 	"net"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/reflection"
+	"github.com/duhangsoft/grpc-go"
+	pb "github.com/duhangsoft/grpc-go/examples/helloworld/helloworld"
+	"github.com/duhangsoft/grpc-go/reflection"
 )
 
 const (

@@ -24,10 +24,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/naming"
+	"github.com/duhangsoft/grpc-go/codes"
+	"github.com/duhangsoft/grpc-go/credentials"
+	"github.com/duhangsoft/grpc-go/grpclog"
+	"github.com/duhangsoft/grpc-go/naming"
 )
 
 // Address represents a server the client connects to.

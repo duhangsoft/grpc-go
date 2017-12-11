@@ -26,15 +26,15 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	_ "google.golang.org/grpc/grpclog/glogger"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	testpb "google.golang.org/grpc/test/grpc_testing"
-	"google.golang.org/grpc/test/leakcheck"
+	"github.com/duhangsoft/grpc-go"
+	"github.com/duhangsoft/grpc-go/balancer"
+	"github.com/duhangsoft/grpc-go/codes"
+	_ "github.com/duhangsoft/grpc-go/grpclog/glogger"
+	"github.com/duhangsoft/grpc-go/peer"
+	"github.com/duhangsoft/grpc-go/resolver"
+	"github.com/duhangsoft/grpc-go/resolver/manual"
+	testpb "github.com/duhangsoft/grpc-go/test/grpc_testing"
+	"github.com/duhangsoft/grpc-go/test/leakcheck"
 )
 
 var rr = balancer.Get("round_robin")

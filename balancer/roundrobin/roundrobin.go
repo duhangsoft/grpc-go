@@ -25,10 +25,10 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/resolver"
+	"github.com/duhangsoft/grpc-go/balancer"
+	"github.com/duhangsoft/grpc-go/connectivity"
+	"github.com/duhangsoft/grpc-go/grpclog"
+	"github.com/duhangsoft/grpc-go/resolver"
 )
 
 // newBuilder creates a new roundrobin balancer builder.

@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	lbpb "google.golang.org/grpc/grpclb/grpc_lb_v1/messages"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/resolver"
+	"github.com/duhangsoft/grpc-go/balancer"
+	"github.com/duhangsoft/grpc-go/connectivity"
+	lbpb "github.com/duhangsoft/grpc-go/grpclb/grpc_lb_v1/messages"
+	"github.com/duhangsoft/grpc-go/grpclog"
+	"github.com/duhangsoft/grpc-go/metadata"
+	"github.com/duhangsoft/grpc-go/resolver"
 )
 
 // processServerList updates balaner's internal state, create/remove SubConns

@@ -60,12 +60,12 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	bm "google.golang.org/grpc/benchmark"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/latency"
-	"google.golang.org/grpc/benchmark/stats"
-	"google.golang.org/grpc/grpclog"
+	"github.com/duhangsoft/grpc-go"
+	bm "github.com/duhangsoft/grpc-go/benchmark"
+	testpb "github.com/duhangsoft/grpc-go/benchmark/grpc_testing"
+	"github.com/duhangsoft/grpc-go/benchmark/latency"
+	"github.com/duhangsoft/grpc-go/benchmark/stats"
+	"github.com/duhangsoft/grpc-go/grpclog"
 )
 
 const (

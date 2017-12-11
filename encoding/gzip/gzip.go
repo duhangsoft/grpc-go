@@ -27,7 +27,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"google.golang.org/grpc/encoding"
+	"github.com/duhangsoft/grpc-go/encoding"
 )
 
 func init() {

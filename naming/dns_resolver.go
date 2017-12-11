@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc/grpclog"
+	"github.com/duhangsoft/grpc-go/grpclog"
 )
 
 const (

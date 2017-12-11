@@ -32,11 +32,11 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/latency"
-	"google.golang.org/grpc/benchmark/stats"
-	"google.golang.org/grpc/grpclog"
+	"github.com/duhangsoft/grpc-go"
+	testpb "github.com/duhangsoft/grpc-go/benchmark/grpc_testing"
+	"github.com/duhangsoft/grpc-go/benchmark/latency"
+	"github.com/duhangsoft/grpc-go/benchmark/stats"
+	"github.com/duhangsoft/grpc-go/grpclog"
 )
 
 // AddOne add 1 to the features slice

@@ -31,13 +31,13 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
+	"github.com/duhangsoft/grpc-go/codes"
+	"github.com/duhangsoft/grpc-go/credentials"
+	"github.com/duhangsoft/grpc-go/keepalive"
+	"github.com/duhangsoft/grpc-go/metadata"
+	"github.com/duhangsoft/grpc-go/peer"
+	"github.com/duhangsoft/grpc-go/stats"
+	"github.com/duhangsoft/grpc-go/status"
 )
 
 // http2Client implements the ClientTransport interface with HTTP2.
